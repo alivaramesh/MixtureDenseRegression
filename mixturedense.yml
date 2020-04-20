@@ -133,5 +133,5 @@ dependencies:
     - tensorflow-estimator==1.14.0
     - termcolor==1.1.0
     - wrapt==1.11.2
-prefix: /users/visics/avarames/anaconda2/envs/CenterNet
+prefix: mixturedense
 

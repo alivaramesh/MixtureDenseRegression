@@ -1,0 +1,2 @@
+# MODEL ZOO
+I will add links to the trained models before the CVPR main conference. Meanwhile, please contact me at [ali.varamesh@kuleuven.be](ali.varamesh@kuleuven.be) if you would like to get access to any of the models in the paper. 

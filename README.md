@@ -23,12 +23,10 @@ Our repo is forked from the amazing code base of the [Object as Points paper](ht
 2- Install [COCOAPI](https://github.com/cocodataset/cocoapi)
 
 3- Compile deformable convolutional conda env create -f environment.yml(from [DCNv2](https://github.com/CharlesShang/DCNv2.git)).
-
-    ~~~
-    cd src/lib/models/networks/DCNv2
-    ./make.sh
-    ~~~
-
+  ~~~  
+  cd src/lib/models/networks/DCNv2
+  ./make.sh
+  ~~~
 ## Train
 To train models from scratch see sample comands at [experiments](experiments)
 

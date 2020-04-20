@@ -6,7 +6,7 @@ For training and evaluation you need to download the MS COCO dataset and organiz
 - Download annotation files (2017 train/val and test image info) from [coco website](http://cocodataset.org/#download). 
 - Place the data (or create symlinks) to make the data folder like:
 
-  ~~~
+~~~
 optdata_dir
 |-- coco
     |-- annotations
@@ -18,3 +18,4 @@ optdata_dir
     |-- train2017
     |-- val2017
     |-- test2017ll 
+~~~

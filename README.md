@@ -8,7 +8,7 @@ Mixture models are well-established learning approaches that, in computer vision
 For questions, please contact me at [ali.varamesh@kuleuven.be](ali.varamesh@kuleuven.be).
 
 ## Acknoledgement
-Our repo is forked from the amazing code base of the [Object as Points paper](https://github.com/xingyizhou/CenterNet)
+Our repo is forked from the amazing codebase of the [Object as Points paper](https://github.com/xingyizhou/CenterNet)
 
 ## Installation
 1- Fiest use [mixturedense.yml](mixturedense.yml) to reproduce the exact [Anaconda](https://www.anaconda.com/download) environment that we have used for our experiments:

@@ -28,8 +28,31 @@ For questions, please contact me at [ali.varamesh@kuleuven.be](ali.varamesh@kule
   cd src/lib/models/networks/DCNv2
   ./make.sh
   ~~~
+ 
 ## Train
-To train models from scratch see sample comands at [experiments](experiments)
+To train models from scratch, first, organize the dataset in the following order and see sample commands at [experiments](experiments)
+
+### Dataset preparation
+For training and evaluation download the MS COCO dataset and organize it as indicated below:
+
+#### COCO
+- Download the images (2017 Train, 2017 Val, 2017 Test) from [coco website](http://cocodataset.org/#download).
+- Download annotation files (2017 train/val and test image info) from [coco website](http://cocodataset.org/#download). 
+- Place the data (or create symlinks) to make the data folder like:
+
+~~~
+optdata_dir
+|-- coco
+    |-- annotations
+        |   |-- instances_train2017.json
+        |   |-- instances_val2017.json
+        |   |-- person_keypoints_train2017.json
+        |   |-- person_keypoints_val2017.json
+        |   |-- image_info_test-dev2017.json
+    |-- train2017
+    |-- val2017
+    |-- test2017ll 
+~~~
 
 ## Test
 To test the models for detction and pose estimation on a images (stored in a directory) use the [inference_ctdet.py](inference_ctdet.py) and [inference_pose.py](nference_pose.py) scripts, respectively

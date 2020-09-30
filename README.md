@@ -31,7 +31,7 @@ For questions, please contact me at [ali.varamesh@kuleuven.be](ali.varamesh@kule
 ## Train
 To train models from scratch see sample comands at [experiments](experiments)
 
-## Tests
+## Test
 To test the models for detction and pose estimation on a images (stored in a directory) use the [inference_ctdet.py](inference_ctdet.py) and [inference_pose.py](nference_pose.py) scripts, respectively
 
 ## Pretrained models

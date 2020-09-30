@@ -52,8 +52,10 @@ To test the models for detction and pose estimation on a images (stored in a dir
 
 [Detection_DLA34_MDN_3_COCO_10percent_Train_Resolution_768_100_epochs](https://drive.google.com/file/d/1sNDCtNeEdgRyilThJ6_Bh7m4roTPMw2n/view?usp=sharing)
 
+
 ## License
 
+This repo is released under the MIT License. We have forked parts of the codebase from other repositories; please refer to the corresponding repositories for their licenses' details.
 
 ## Citation
 

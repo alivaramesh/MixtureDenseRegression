@@ -1,12 +1,9 @@
 
 ## [Mixture Dense Regression for Object Detection and Human Pose Estimation](https://arxiv.org/abs/1912.00821) (CVPR 2020)
 
-## Abstract 
+![Distribution of components compared to the ground-truth distribution of object scale](comp_area_vis.jpg)
 
 Mixture models are well-established learning approaches that, in computer vision, have mostly been applied to inverse or ill-defined problems. However, they are general-purpose divide-and-conquer techniques, splitting the input space into relatively homogeneous subsets in a data-driven manner. Not only ill-defined but also well-defined complex problems should benefit from them. To this end, we devise a framework for spatial regression using mixture density networks. We realize the framework for object detection and human pose estimation. For both tasks, a mixture model yields higher accuracy and divides the input space into interpretable modes. For object detection, mixture components focus on object scale, with the distribution of components closely following that of ground truth the object scale. This practically alleviates the need for multi-scale testing, providing a superior speed-accuracy trade-off. For human pose estimation, a mixture model divides the data based on viewpoint and uncertainty -- namely, front and back views, with back view imposing higher uncertainty. We conduct experiments on the MS COCO dataset and do not face any mode collapse. 
-
-
-![Distribution of components compared to the ground-truth distribution of object scale](comp_area_vis.jpg)
 
 
 For questions, please contact me at [ali.varamesh@kuleuven.be](ali.varamesh@kuleuven.be).

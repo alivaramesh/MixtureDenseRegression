@@ -27,7 +27,7 @@ For questions, please contact me at [ali.varamesh@kuleuven.be](ali.varamesh@kule
   ~~~
  
 ## Train
-To train models from scratch, first, organize the dataset in the following order and see sample commands at [experiments](experiments)
+To train models from scratch, first, organize the dataset in the following order and see sample commands at [experiments](experiments.md)
 
 ### Dataset preparation
 For training and evaluation download the MS COCO dataset and organize it as indicated below:
